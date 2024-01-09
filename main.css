@@ -1,0 +1,80 @@
+
+html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.months{
+  position: absolute;
+  top: -10px;
+  z-index: 1000;
+}
+#calendarContainer{
+  padding: 20px;
+  padding-left: 0;
+  width: 600px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: scroll;
+  justify-content: start;
+  align-items: start;
+  gap: 4px;
+  position: relative;
+
+  /* justify-content: space-between; */
+}
+.day{
+  background-color:#ebedf0;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+.empty{
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 1px;
+}
+.low{
+  background-color: #9be9a8 ;
+}
+.mid{
+  background-color: #40c463;
+}
+.hight{
+  background-color: #216e39;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.2)
+  /* height: 1000px; */
+  /* padding: 30px; */
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  height: 150px;
+  padding-right: 5px;
+}
