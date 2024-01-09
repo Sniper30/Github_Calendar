@@ -58,7 +58,7 @@ body {
 .hight{
   background-color: #216e39;
 }
-.container{
+.Calendar{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,4 +77,17 @@ ul{
   gap: 14px;
   height: 150px;
   padding-right: 5px;
+}
+
+.container{
+
+  text-align: center;
+}
+
+.searchByYear {
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
 }
